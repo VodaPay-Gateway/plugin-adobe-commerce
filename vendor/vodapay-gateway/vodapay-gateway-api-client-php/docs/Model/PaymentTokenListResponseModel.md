@@ -1,0 +1,16 @@
+# # PaymentTokenListResponseModel
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**response_message** | **string** |  | [optional]
+**response_code** | **string** |  | [optional]
+**was_successful** | **bool** |  |
+**echo_data** | **string** |  | [optional]
+**token_requester_id** | **string** |  | [optional]
+**retrieval_reference_number_extended** | **string** |  | [optional]
+**session_id** | **string** |  | [optional]
+**payment_tokens** | [**\VodaPayGatewayClient\Model\PaymentTokenListItemDataModel[]**](PaymentTokenListItemDataModel.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
